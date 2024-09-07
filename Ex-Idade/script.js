@@ -38,7 +38,7 @@ function clicar() {
             parag.innerText = `Você é um adolescente de ${idade} anos!`
             img.src = 'adolescentemasc.jpg'
            }
-           else if (idade <= 65) {
+           else if (idade <= 60) {
             parag.innerText = `Você é um homem de ${idade} anos!`
             img.src = 'homem.jpg'
            }
@@ -66,7 +66,7 @@ function clicar() {
                 parag.innerText = `Você é uma adolescente de ${idade} anos!`
                 img.src = 'adolescentefem.jpg'
                }
-               else if (idade <= 65) {
+               else if (idade <= 60) {
                 parag.innerText = `Você é uma mulher de ${idade} anos!`
                 img.src = 'mulher.jpg'
                }
