@@ -8,7 +8,7 @@ function clicar() {
     let ano = document.getElementById('ano')
     let anoSub = Number(ano.value)
     let idade = 2024 - anoSub
-   
+
     //sexo e genero
     //PERGUNTAR PRO PROFESSOR PRA ENTENDER MELHOR
     let sexo = document.getElementsByName('sexo')[0]
@@ -23,57 +23,57 @@ function clicar() {
     //começo do caso
     switch (genero) {
         case 'M':
-           if (idade > 124 || idade < 1) {
+            if (idade > 124 || idade < 1) {
             alert('[ERRO] - Digite uma data válida (De 1900 à 2023)')
-           }
-           else if (idade <= 2) {
+            }
+            else if (idade <= 2) {
             parag.innerText = `Você é um bebê de ${idade} anos!`
             img.src = 'bebemenino.png'
-           }
-           else if (idade <= 14) {
+            }
+            else if (idade <= 14) {
             parag.innerText = `Você é uma criança de ${idade} anos!`
             img.src = 'criancamenino.webp'
-           }
-           else if (idade <= 18) {
+            }
+            else if (idade <= 18) {
             parag.innerText = `Você é um adolescente de ${idade} anos!`
             img.src = 'adolescentemasc.jpg'
-           }
-           else if (idade <= 60) {
+            }
+            else if (idade <= 60) {
             parag.innerText = `Você é um homem de ${idade} anos!`
             img.src = 'homem.jpg'
-           }
-           else {
+            }
+            else {
             parag.innerText = `Você é um senhor de ${idade} anos!`
             img.src = 'idoso.jpg'
-           }
-           break 
+            }
+            break 
 
 
         case 'F':
             if (idade > 124 || idade < 1) {
                 alert('[ERRO] - Digite uma data válida (De 1900 à 2023)')
                 img.style.display = 'none'
-               }
-               else if (idade <= 2) {
+            }
+            else if (idade <= 2) {
                 parag.innerText = `Você é uma bebê de ${idade} anos!`
                 img.src = 'bebemenina.jpg'
-               }
-               else if (idade <= 14) {
+            }
+            else if (idade <= 14) {
                 parag.innerText = `Você é uma criança de ${idade} anos!`
                 img.src = 'criancamenina.jpg'
-               }
-               else if (idade <= 18) {
+            }
+            else if (idade <= 18) {
                 parag.innerText = `Você é uma adolescente de ${idade} anos!`
                 img.src = 'adolescentefem.jpg'
-               }
-               else if (idade <= 60) {
+            }
+            else if (idade <= 60) {
                 parag.innerText = `Você é uma mulher de ${idade} anos!`
                 img.src = 'mulher.jpg'
-               }
-               else {
+            }
+            else {
                 parag.innerText = `Você é uma senhora de ${idade} anos!`
                 img.src = 'idosa.jpeg'
-               }
+            }
             break
     }
     
