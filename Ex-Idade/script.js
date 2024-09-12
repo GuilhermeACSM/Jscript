@@ -12,7 +12,7 @@ function clicar() {
     //sexo e genero
     //PERGUNTAR PRO PROFESSOR PRA ENTENDER MELHOR
     let sexo = document.getElementsByName('sexo')[0]
-    let genero = ''
+    let genero
     if(sexo.checked) {
         genero = 'M'
     }
