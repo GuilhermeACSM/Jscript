@@ -12,11 +12,15 @@ function clicar() {
 
     //string para acumular os números
     let sfim = ''
-    
-    for(start; start <= end; start += lag) {
-        //sfim =  sfim + `${start} ⭐`  Mesma forma de fazer!
-        sfim += `${start} ⭐` //Fica mais bonito e enxuto!
+    if (start.value.length == 0 || end.value.length == 0 || lag.value.length == 0) {
+        alert('[ERRO] Faltando dados!')
+    } else {
+        for(start; start <= end; start += lag) {
+            //sfim =  sfim + `${start} ⭐`  Mesma forma de fazer!
+            sfim += `${start} ⭐` //Fica mais bonito e enxuto!
+        }
     }
+    
 
     //adiciona bandeira no final
     //emoji \uD83C\uDFC1
