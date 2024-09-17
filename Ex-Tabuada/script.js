@@ -9,11 +9,11 @@ function tabuada() {
     } else {
         let n = Number(num.value)
         //(tab.value = '') serve para sempre retirar a tabuada anterior
-        tab.value = ''
+        tab.innerHTML = ''
         for (let c = 1 ; c <= 10 ; c++) {
-            resultado = n*c
-            //(tab.value += ) serve para concatenar e adicionar os resultados da conta
-            tab.value += `${n} x ${c} = ${resultado} \n`
+            let resultado = n*c
+            //(tab.innerHTML += ) serve para concatenar e adicionar os resultados da conta
+            tab.innerHTML += `${n} x ${c} = ${resultado} \n`
         }
     }
 }
