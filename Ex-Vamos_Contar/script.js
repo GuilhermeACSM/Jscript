@@ -11,7 +11,7 @@ function clicar() {
     if (inicio.value.lenght == 0 || fim.value.lenght == 0 || passos.value.lenght == 0) {
         window.alert('[ERRO] Faltam Dados!')
     } else {
-        parag.innerHTML = 'Contando <br>'
+        parag.innerHTML = 'Contando: <br>'
         if (p <= 0) {
             // Se colocar (passo = 0) ele ira contar de 1 em 1 (1 - 2 - 3 - 4...)!!
             alert('Passo inválido! Considerando PASSO 1')
@@ -28,6 +28,7 @@ function clicar() {
                 parag.innerHTML += `${c} \u{1F449}`
             }
         }
+        parag.style.textAlign = 'left'
         parag.innerHTML += `\u{1F3C1}`
     }
 }
