@@ -10,9 +10,11 @@ body {
     background-color: blue;
     text-align: center;
     margin-top: 10px;
+    color: white;
 }
 
 section {
+    color: black;
     background-color: white;
     margin: auto;
     margin-top: 10px;
