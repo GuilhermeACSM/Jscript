@@ -4,7 +4,7 @@ function clicar() {
     let passos = document.getElementById('passos')
     let parag = document.getElementById('parag')
 
-    if (inicio.value.lenght == 0 || fim.value.lenght == 0 || passos.value.lenght == 0) {
+    if (inicio.value == 0 || fim.value == 0 || passos.value == 0) {
         window.alert('[ERRO] Faltam Dados!')
     } else {
         parag.innerHTML = 'Contando: <br>'
