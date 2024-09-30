@@ -9,7 +9,6 @@ function isNumero(n) {
     } else {
         return false
     }   
-
 }
 
 function inLista(n, l) {
