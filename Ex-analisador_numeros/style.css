@@ -77,3 +77,7 @@ select{
     border: 1px solid black;
     margin-top: 5px;
 }
+
+.resultado p {
+    margin-left: 10px;
+}
